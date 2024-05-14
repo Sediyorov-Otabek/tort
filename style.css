@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 100%;
+  height: 80px;
+  background: white;
+  display: flex;
+  align-items: center;
+}
+.wrapper__img {
+  margin-left: 20px;
+}
+.wrapper__tegs {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.tegs__item {
+  font-size: 20px;
+  margin: 10px;
+  list-style: none;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+}
+.fon {
+  width: 100%;
+}
+.btn {
+  border: none;
+  margin-right: 20px;
+}
+.btn:hover {
+  cursor: pointer;
+  background: red;
+}
+.category {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 60px;
+}
+.category__item {
+  color: rgb(126, 120, 120);
+  font-size: 20px;
+  margin: 11px;
+}
+.category__item:hover {
+  cursor: pointer;
+  color: red;
+}
+.card {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 10px 60px;
+  /* background: black; */
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+.card button {
+  font-size: 20px;
+  border: 15px solid rgb(235, 156, 156);
+  border-radius: 40px;
+  background: rgb(235, 156, 156);
+  margin: 2px;
+}
+.card button:hover{
+  cursor: pointer;
+  color: palegreen;
+}
+.title {
+  width: 100%;
+  height: 80px;
+  margin-top: 80px;
+  text-align: center;
+  padding-top: 10px;
+  background: rgb(235, 156, 156);
+}
+.title__mean {
+  font-size: 50px;
+  color: white;
+  font-family: inherit;
+}
+.card__box{
+    width: 255px;
+    height: 400px;
+    background: white;
+    flex-wrap: wrap;
+    margin: 0 10px;
+}
+.card__img{
+    width: 100%;
+    height: 50%;
+    border-radius: 50%;
+}
+.card__img:hover{
+  cursor: pointer;
+  color: red;
+
+}
+.card__title{
+    text-align: center;
+    margin: 30px;
+}
+.card__text{
+    text-align: center;
+    font-size: 20px;
+}
+.card__cost{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.card__discription{
+    display: flex;
+    justify-self: center;
+    width: 800px;
+    margin-left: 180px;
+}
+.end{
+    width: 100%;
+    height: 400px;
+    background: rgb(44, 32, 32);
+    margin-top: 1000px;
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+}
+.end__category{
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+    padding: 40px;
+}
+.end__img{
+    margin-top: 50px;
+    width: 80%;
+}
+.end__title{
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+.end__item{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    margin: 10px;
+}
+.end__item a{
+    color: white;
+}
+.end__category img{
+    margin-top: 50px;
+}
